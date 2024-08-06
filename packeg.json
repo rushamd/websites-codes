@@ -1,0 +1,17 @@
+{
+  "name": "my-static-site",
+  "version": "1.0.0",
+  "description": "A simple static site deployed on Render",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server .",
+    "build": "echo 'No build step required for static site'"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC"
+}
